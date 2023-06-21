@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+  
+  h1 {
+    font-size: 2rem; 
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    color: #794044;
+    text-align: center;
+  }
+  p{
+    padding: 10px 0px;
+    word-spacing: 4px;
+  }
+  p, table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  p, table {
+    font-size: 1.125rem; 
+  }
+  
+  
+  div.wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  
+  article {
+    padding: 2em 3em;
+  }
+  
+  
+  div.wrapper {
+    background-color: #F2F2F2;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    height: 50vh;
+    float: right;
+    padding: 5px;
+    border-radius: 50%;;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 1em;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+  }
+  .highlight{
+    padding: 10px;
+
+  }
+  h1>p{
+    padding: 10px;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+th,td{
+  padding: 10px;
+  text-align: left;
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+  }
+
+  ul, ol {
+  margin-left: 20px;
+}
+ol {
+    list-style-type: decimal;
+  }
+  
+  
+  
